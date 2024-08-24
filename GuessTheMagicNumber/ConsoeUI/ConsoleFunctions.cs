@@ -14,5 +14,10 @@ namespace ConsoleUI
             var name = Console.ReadLine()!;
             return name;
        }
+        public static string GetDifficultly()
+        {
+            string difficultyRequest = Console.ReadLine()!;
+            return difficultyRequest;
+        }
     }
 }
